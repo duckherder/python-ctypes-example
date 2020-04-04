@@ -8,8 +8,8 @@
 #pragma once
 struct Complex
 {
-	int	re;
-	int im;
+    int re;
+    int im;
 };
 
 extern "C" __declspec( dllexport ) int SumIntegers( int* data, int length );
